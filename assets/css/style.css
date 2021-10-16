@@ -4,19 +4,26 @@
     background-size: cover;
    
 }
-.card cream {
+#cream {
     grid-area : cream;
 }
-.card lip {
+#lip {
     grid-area : lip;
 }
-.card hair {
+#hair {
     grid-area : hair;
 }
-#gridbox {
+#gridbox1 {
     display: grid;
-    grid-template -moz-columns: 1fr 1fr 1fr;
-   /* min-height: 100vh;*/
-    grid-template-areas: "cream  lip hair";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "cream lip hair";
     gap: 30px;
 }
+/*.card {
+    flex-direction: row;
+}*/
+#gridbox2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: ";
+    gap: 30px;
