@@ -1,0 +1,22 @@
+.bar {
+    background-image: url(..//image/photo-back-ground.jpeg);
+    min-height: 500px;
+    background-size: cover;
+   
+}
+.card cream {
+    grid-area : cream;
+}
+.card lip {
+    grid-area : lip;
+}
+.card hair {
+    grid-area : hair;
+}
+#gridbox {
+    display: grid;
+    grid-template -moz-columns: 1fr 1fr 1fr;
+   /* min-height: 100vh;*/
+    grid-template-areas: "cream  lip hair";
+    gap: 30px;
+}
